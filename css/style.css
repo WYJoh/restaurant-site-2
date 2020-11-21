@@ -1,0 +1,339 @@
+img {
+	width: 200px;
+}
+	body {
+	background-image: linear-gradient(#CDEDEA, #59D8CB);
+}
+h1 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 15px;
+	color: #05668D;
+}
+h2 {
+	font-size: 3.5em;
+}
+h2.inh2 {
+	font-size: 3.5em;
+	line-height: 50px;
+}
+h2.coh2 {
+	font-size: 3.5em;
+	color: #101C41;
+}
+h2.prh2 {
+	font-size: 3.5em;
+	color: #101C41;
+	margin: 0 0 0 10px;
+}
+h3 {
+	font-size: 1.5em;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	border-style: solid;
+	border-color: #101C41;
+	border-radius: 1em;
+	border-width: 2px;
+	background-color: #F0F3BD;
+}
+h1, h2 {
+	font-family: 'Arizonia', cursive;
+}
+h2, h3 {
+	color: #101C41;
+}
+td {
+	padding: 5px;
+}
+.cart_checkout {
+	width: 40px;
+	position: fixed;
+	z-index: 100;
+	top: 5px;
+	right: 5px;
+	border-style: outset;
+	border-radius: 1em;
+	border-color: #ECEFA9;
+	border-width: 2px;
+	padding: 5px;
+	background-color: #D85A66;
+}
+.checkout_item {
+	width: 15px;
+	height: 15px;
+	position: fixed;
+	z-index: 100;
+	top: 25px;
+	right: 38px;
+	border-style: outset;
+	border-radius: 1em;
+	border-color: #ECEFA9;
+	background-color: #B12A37;
+	color: white;
+	border-width: 2px;
+	padding: 5px 5px 8px 5px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+.food_description {
+	font-size: 1.2em;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	color: #101C41;
+}
+.call_to_action {
+	font-color: black;
+	background-color: #D85A66;
+	padding: 5px;
+	margin: 10px;
+	border-width: 2px;
+	border-style: outset;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	font-size: 0.7em;
+	border-radius: 1em;
+	border-color: #ECEFA9;
+}
+.nav_guide{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+	font-size: 1.5em;
+	border-style: outset;
+	border-width: 5px;
+	background-color: #F0F3BD;
+	border-color: #ECEFA9;
+	font-family: 'Quicksand', sans-serif;
+}
+.nav_guide li a{
+	color: #2F4858;
+	text-decoration: none;
+}
+.classic_sampler, .fried_calamari, .fried_shrimp, .mahi_mahi, .stuffed_flounder, .crab_cake, .key_lime, .chocolate_mousse {
+	width: 350px;
+	height: 250px;
+	border-style: outset;
+	border-color: #ECEFA9;
+}
+.cs_dip, .lobster_tails {
+	width: 220px;
+	height: 250px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: outset;
+	border-color: #ECEFA9;
+}
+.fish_left {
+	position: absolute;
+	left: 35px;
+	top: 30px;
+}
+.fish_right {
+	transform: ScaleX(-1);
+	position: absolute;
+	right: 35px;
+	top: 30px;
+}
+form {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	text-align: center;
+	margin:auto;
+	width: 500px;
+	height: 515px;
+	border-style: solid;
+	border-color: #101C41;
+	border-radius: 1em;
+	border-width: 2px;
+	background-color: #F0F3BD;
+	font-family: 'Quicksand', sans-serif;
+}
+label {
+	color: #101C41;
+}
+input, textarea {
+	font-family: 'Quicksand', sans-serif;
+}
+button {
+	background-color: #D85A66;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 1em;
+	font-size: 0.8em;
+	border-style: outset;
+}
+.col50 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2em 0;
+	background-color: #E7E4E7;
+	border-style: outset;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+hr.pr_body {
+	border-size: 0.1em;
+	border-color: #D7D7D7;
+	border-style: solid;
+	margin: 15px 0 15px 0;
+}
+img.hero {
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: black;
+}
+.thumbnail {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88%;
+}
+.thumbnail img {
+	width: 120px;
+	height: 80px;
+	border-style: outset;
+	border-color: gray;
+}
+.thumbnail li {
+	display: inline-block;
+	margin: 0 3px;
+}
+p.pr_description {
+	font-family: 'Quicksand', sans-serif;
+	margin: 15px 0 0 60px;
+	font-size: 1.2em;
+}
+.pr_rating {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0 0 0 60px;
+	font-size: 1.5em;
+	color: black;
+}
+.pr_light {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0 0 15px 60px;
+	font-size: 1.2em;
+	color: #7E7E7E;
+}
+.pr_dark {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: red;
+}
+button.pr_button {
+	background-color: #D85A66;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 1em;
+	font-size: 0.8em;
+	border-style: outset;
+	margin: 15px 0 0 60px;
+}
+.checkout_full {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	text-align: center;
+	margin:auto;
+	width: 1000px;
+	height: 460px;
+	border-style: solid;
+	border-color: #101C41;
+	border-radius: 1em;
+	border-width: 2px;
+	background-color: #F0F3BD;
+	font-family: 'Quicksand', sans-serif;
+}
+.checkout_empty {
+	font-size: 1.4em;
+	line-height: 1.5em;
+	text-align: center;
+	margin:auto;
+	width: 1000px;
+	height: 250px;
+	border-style: solid;
+	border-color: #101C41;
+	border-radius: 1em;
+	border-width: 2px;
+	background-color: #F0F3BD;
+	font-family: 'Quicksand', sans-serif;
+}
+.order_cart {
+	font-size: 1.8em;
+	color: #101C41;
+}
+button.empty_button {
+	background-color: #D85A66;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 1em;
+	font-size: 0.8em;
+	border-style: outset;
+	padding: 5px;
+}
+img.checkout_hero {
+	border-style: outset;
+	border-color: gray;
+	margin: 0;
+	padding: 0;
+}
+.col70 {
+	text-align: left;
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding:0 20px 20px 20px;
+}
+.col30 {
+	text-align: left;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 0 20px 20px 20px;
+	background-color: #D7D7D7;
+	margin-right: 5px;
+}
+table.cart {
+	width: 100%;
+	color: #101C41;
+}
+.cart_head {
+	border-style: solid;
+	border-color: gray;
+	background-color: #D7D7D7;
+	text-align: center;
+}
+td.cart_body {
+	text-align: center;
+	vertical-align: top;
+}
+td.cart_summary {
+	text-align: left;
+	vertical-align: top;
+}
+h3.hcheckout {
+	font-family: 'Quicksand', sans-serif;
+	border-bottom: solid;
+	border-color: gray;
+	border-radius: 0;
+	border-width: 0.15em;
+	font-size: 1.1em;
+	margin-top: 1px;
+	background-color: #D7D7D7;
+}
+hr.chout_body {
+	border-size: 0.1em;
+	border-color: gray;
+	border-style: solid;
+	margin: 15px 0 15px 0;
+}
+button.place_order {
+	background-color: #D85A66;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 1em;
+	font-size: 0.8em;
+	border-style: outset;
+	margin: 15px 0 0 50px;
+}
